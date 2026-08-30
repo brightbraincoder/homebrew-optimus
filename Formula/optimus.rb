@@ -4,29 +4,29 @@
 class Optimus < Formula
   desc "Optimus — an agentic coding CLI that reads/writes files, runs shell commands, and works on your project autonomously via an LLM."
   homepage "https://github.com/brightbraincoder/optimus-releases"
-  version "0.289.2"
+  version "0.289.3"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.289.2/optimus-v0.289.2-macos-arm64"
-      sha256 "0d27fe34bd943ba3ab0742669950339e37c1121956de9ef1d4f7b2aba69adb2d"
+      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.289.3/optimus-v0.289.3-macos-arm64"
+      sha256 "9c241a9897100eddb7d36d108c8eede935e6cc73eb96bb826ef625d0a53fa723"
     end
     on_intel do
-      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.289.2/optimus-v0.289.2-macos-x64"
-      sha256 "5c57b7cade98429a657e47f704e154864b5a4c59d2c7feb016a9f82e8d8c1c32"
+      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.289.3/optimus-v0.289.3-macos-x64"
+      sha256 "017152fdb28510b8eaa35578ffcece645ac9c98b2c36f834a01085e0505608ce"
     end
 
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.289.2/optimus-v0.289.2-linux-arm64"
-      sha256 "abd6e66936893fffb0deb48e91f648b2a4cd5578c0053d20ef194f2818c3f0b5"
+      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.289.3/optimus-v0.289.3-linux-arm64"
+      sha256 "fa37e00d4df9b33ee8af430601865da66e382f7faeb093b3b101b3edbd9457a3"
     end
     on_intel do
-      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.289.2/optimus-v0.289.2-linux-x64"
-      sha256 "a0e15ff03f4635b80cdaf1f4473159a00978930c9543121424088921c1461de4"
+      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.289.3/optimus-v0.289.3-linux-x64"
+      sha256 "6093b75092caf02148d361a116f335eb4bdbd183f3015351103c6dbb64aff2b3"
     end
 
   end
