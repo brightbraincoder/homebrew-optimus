@@ -4,29 +4,29 @@
 class OptimusCli < Formula
   desc "Optimus — an agentic coding CLI that reads/writes files, runs shell commands, and works on your project autonomously via an LLM."
   homepage "https://github.com/brightbraincoder/optimus-releases"
-  version "0.317.1"
+  version "0.326.2"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.317.1/optimus-cli-v0.317.1-macos-arm64"
-      sha256 "1baf687c8220c3620b9ef531714b04550419f63320fef0fa226b2c0bcdfa7910"
+      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.326.2/optimus-cli-v0.326.2-macos-arm64"
+      sha256 "09b5830d9256c45505451b1be4822cc7154085cc22dd1426912309109463898f"
     end
     on_intel do
-      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.317.1/optimus-cli-v0.317.1-macos-x64"
-      sha256 "e952652fa3d66e15c9fb0c5d7ce2dbcc46c4ca42fb6608499e95ac8aa1173abd"
+      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.326.2/optimus-cli-v0.326.2-macos-x64"
+      sha256 "cbaa2db1b458e0cea61fd0d1cb2fab7c773046002f8eda02ba4935c5fb2cb67c"
     end
 
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.317.1/optimus-cli-v0.317.1-linux-arm64"
-      sha256 "1d909a9177ad6f15e6c11f8fc5de2dc554476bda7ae1fe336f2e5bfb7fac3f5e"
+      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.326.2/optimus-cli-v0.326.2-linux-arm64"
+      sha256 "ebe36fff04ff5358bc652115f9aa73643c182174660dcf75001dd9b545ac8501"
     end
     on_intel do
-      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.317.1/optimus-cli-v0.317.1-linux-x64"
-      sha256 "c2325ec42742afcaf9e478def84b0a03056d1d9283da67e6986404539098f673"
+      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.326.2/optimus-cli-v0.326.2-linux-x64"
+      sha256 "859d294d8b5bba792206d5bd020d112d98907d0e23b11b6a51db382e4ec52c16"
     end
 
   end
