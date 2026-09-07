@@ -4,29 +4,29 @@
 class OptimusCli < Formula
   desc "Optimus — an agentic coding CLI that reads/writes files, runs shell commands, and works on your project autonomously via an LLM."
   homepage "https://github.com/brightbraincoder/optimus-releases"
-  version "0.336.0"
+  version "0.337.0-alpha.2"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.336.0/optimus-cli-v0.336.0-macos-arm64"
-      sha256 "477c1ec519200344239fcd9b3a084719e675e9844c58e4a238f625a3914c8ac7"
+      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.337.0-alpha.2/optimus-cli-v0.337.0-alpha.2-macos-arm64"
+      sha256 "f8e49f2ca594e206096915c3deb3ae453e6873030d0f2658dfa1b13c8292d904"
     end
     on_intel do
-      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.336.0/optimus-cli-v0.336.0-macos-x64"
-      sha256 "2966cdb2752e7fb4085a0b255d36f57d19d94f5d5b6bf1923db5a0b5a8328ba6"
+      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.337.0-alpha.2/optimus-cli-v0.337.0-alpha.2-macos-x64"
+      sha256 "795bc12c2c17c59a5ce484a69be7a8555da084a282fcfd3c3227061843fae1d4"
     end
 
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.336.0/optimus-cli-v0.336.0-linux-arm64"
-      sha256 "12229678586a9be9791ceaa4bf22b933063a499dde154275b3d4000ca181cd40"
+      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.337.0-alpha.2/optimus-cli-v0.337.0-alpha.2-linux-arm64"
+      sha256 "4f894b2f633fb3a7b3012d45fd0ec879aa463d4f0c4093a6a4a5e121eab8511d"
     end
     on_intel do
-      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.336.0/optimus-cli-v0.336.0-linux-x64"
-      sha256 "b99e40effd12bd4f86bd21635a6391a161c599f7f4372c2169c3e25df8a633ef"
+      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.337.0-alpha.2/optimus-cli-v0.337.0-alpha.2-linux-x64"
+      sha256 "e9986f8670f9d1840adf47aadde739e972e94ddaff15a62ceeff2b7469fcf1d9"
     end
 
   end
