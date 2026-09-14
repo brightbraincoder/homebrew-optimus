@@ -4,29 +4,29 @@
 class OptimusCli < Formula
   desc "Optimus — an agentic coding CLI that reads/writes files, runs shell commands, and works on your project autonomously via an LLM."
   homepage "https://github.com/brightbraincoder/optimus-releases"
-  version "0.338.0-alpha.24"
+  version "0.338.0-alpha.25"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.338.0-alpha.24/optimus-cli-v0.338.0-alpha.24-macos-arm64"
-      sha256 "1a2bad5be5efffd9a678957b01464e0e1f65b469fd14d87b2befc75d22f0a1fc"
+      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.338.0-alpha.25/optimus-cli-v0.338.0-alpha.25-macos-arm64"
+      sha256 "dd49813ce8412e9c1491fc25b57bdbbfb2c98046aab6c606b846e9e75b303caf"
     end
     on_intel do
-      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.338.0-alpha.24/optimus-cli-v0.338.0-alpha.24-macos-x64"
-      sha256 "0198978cab4f2ffbd5c187e23aea5ee1831a26c5eade78ff168797d4330e6abe"
+      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.338.0-alpha.25/optimus-cli-v0.338.0-alpha.25-macos-x64"
+      sha256 "4833b2385954c25b92067e8f5939f2c6d9e12d011f15e30ecad2d5ed5026219d"
     end
 
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.338.0-alpha.24/optimus-cli-v0.338.0-alpha.24-linux-arm64"
-      sha256 "b435a352154f65335664ee61bd1a565920e03a8510f5ec3e5d80507b719bb1aa"
+      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.338.0-alpha.25/optimus-cli-v0.338.0-alpha.25-linux-arm64"
+      sha256 "3f5ed1cdec1e3881d2a5f5105bf8ce5dd0b6b0feee7c9e4645568dd02ad0497a"
     end
     on_intel do
-      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.338.0-alpha.24/optimus-cli-v0.338.0-alpha.24-linux-x64"
-      sha256 "9c8e2cc9ac3f8d34973f354fba96623e54c6298ae6493cb8e9fcae2057d1516f"
+      url "https://github.com/brightbraincoder/optimus-releases/releases/download/v0.338.0-alpha.25/optimus-cli-v0.338.0-alpha.25-linux-x64"
+      sha256 "1f918527ba620ce4a9e436b5e50143df2ea8b9aeb717c5a6dcda5bb69bd5efeb"
     end
 
   end
